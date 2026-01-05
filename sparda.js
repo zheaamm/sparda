@@ -22,6 +22,21 @@ semuaTombol.forEach((tombol) => {
     });
 });
 
+// tenanan start
+let waktu = new Date().getHours();
+let hasil ;
+console.log(waktu)
+if (waktu <= 12) {
+    hasil = 'Good Morning'
+} else if (waktu <= 18) {
+    hasil = 'Good Afternon'
+} else if (waktu <= 24) {
+    hasil = 'Good Night'
+} 
+console.log(hasil)
+document.getElementById("sapa").innerHTML = hasil;  
+
+// tenanan end
 
 //var id teks
 // let box = document.getElementById("box")
@@ -116,7 +131,7 @@ switch (hari){
     case 1:
         akhir = `senin`
         break
-        case 2:
+    case 2:
             akhir = `selasa`
         break
     case 3 :

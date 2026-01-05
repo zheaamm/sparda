@@ -56,12 +56,6 @@ document.getElementById("sapa").innerHTML = hasil;
 // }
 
 
-
-
-
-
-
-
 /*const x = [3, 6, 5, 7, 9, 0, 12]
 for (let hi of x){
     console.log(hi)

@@ -35,8 +35,8 @@ html {
     padding: 0px;
 }
 
-.button > p {
-    font-size: 250%;
+#sapa {
+    font-size: 150%;
     letter-spacing: -1px;
     font-family: 'Times New Roman', Times, serif;
 }

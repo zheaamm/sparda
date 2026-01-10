@@ -302,8 +302,12 @@ html {
     .sparda > div {
         /* background-color: burlywood; */
         font-size: medium;
-        width: 2%;
+        width: 1%;  
         /* background-color: aqua; */
+    }
+
+    .header {
+        height: 190px;
     }
 
     ul{
@@ -312,28 +316,31 @@ html {
         /* list-style: none; */
         /* margin-right: 20%; */
         /* margin-top: 2%; */
-        margin-left: 36% ;
+        margin-left: 25% ;
     }
 
     ul > li {
-        margin: 10;
+        margin: 4%;
         /* background-color: red; */
     }
 
 
     ul > li > a {
-        font-size: small;
+        font-size: X-small;
+        padding: 2px;
+    }
+    
+    ul > li > a:hover {
+        border: 2px solid white;
+        font-size: x-small;
+        color: white;
+        border-radius: 1px;
+        box-shadow: 0px 0px 15px white;
+        text-shadow: none;
         padding: 2px;
     }
 
-    ul > li > a:hover {
-        border: 2px solid white;
-        font-size: medium;
-        color: white;
-        border-radius: 5px;
-        box-shadow: 5px 4px 10px white;
-        text-shadow: none;
-    }
+
 
     .section {
         margin-top: 12%;
@@ -356,11 +363,12 @@ html {
     }
 
     .visi {
-        font-size: large;
+        font-size: small;
+        padding-top: 70px;
     }
 
     .pro{
-        font-size: x-large;
+        font-size: x-small;
     }
 
     .header{
